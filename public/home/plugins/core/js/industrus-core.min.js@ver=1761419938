@@ -1,0 +1,1 @@
+!function(n){"use strict";jQuery(document).ready((function(n){n((function(){n('[data-toggle="popover"]').popover()})),(new WOW).init()}))}();
