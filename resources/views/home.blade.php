@@ -14,7 +14,7 @@
                                     data-autoplay-speed="8000" data-initial-slide="0" data-dots="true"
                                     data-arrows="true" data-pauseon-hover="false">
                                     <div class="hero-slide slide-1 mask">
-                                        <div class="bg-img kenburns-top" style="background-image: url({{ asset('images/sliders/1.png') }});"></div>
+                                        <div class="bg-img kenburns-top" style="background-image: url({{ asset('images/sliders/1.jpg') }});"></div>
                                         <div class="top-shape" style="" data-animation="fade-in-left" data-delay="300ms"></div>
                                         <div class="bottom-shape" style="" data-animation="fade-in-right" data-delay="300ms"></div>
                                         <div class="slider-content-wrap d-flex align-items-center">
@@ -27,24 +27,16 @@
                                                     </div>
                                                     <div class="dl-caption big elementor-repeater-item-ab758ea">
                                                         <div class="inner-layer">
-                                                            <div data-animation="fade-in-right" data-delay="800ms">A PROPOS DE NOUS</div>
+                                                            <div data-animation="fade-in-right" data-delay="800ms">PROJET RENDU EN 2018</div>
                                                         </div>
                                                     </div>
                                                     <div class="dl-caption small elementor-repeater-item-da04f55">
                                                         <div class="inner-layer">
                                                             <div data-animation="fade-in-right" data-delay="1000ms">
-                                                                Nous assurerons le transfert de technologies et d’expertise <br>des plus grandes entreprises vers les nouvelles
+                                                                CONSTRUCTION D'UN R+1 À BINGERVILLE LAURIER 20.
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    {{-- <div class="dl-btn-group button elementor-repeater-item-fb9a648">
-                                                        <div class="inner-layer">
-                                                            <a href="index.html#"
-                                                                class="dl-btn-2" data-animation="fade-in-right"
-                                                                data-delay="1200ms">Make an Appointment<span></span>
-                                                            </a>
-                                                        </div>
-                                                    </div> --}}
                                                 </div>
                                             </div>
                                         </div>
@@ -63,29 +55,19 @@
                                                     </div>
                                                     <div class="dl-caption big elementor-repeater-item-51a0124">
                                                         <div class="inner-layer">
-                                                            <div data-animation="fade-in-right" data-delay="800ms">A PROPOS DE NOUS</div>
+                                                            <div data-animation="fade-in-right" data-delay="800ms">PROJET RENDU EN REALISATION</div>
                                                         </div>
                                                     </div>
                                                     <div class="dl-caption small elementor-repeater-item-d89776c">
                                                         <div class="inner-layer">
                                                             <div data-animation="fade-in-right" data-delay="1000ms">
-                                                                Nous disposons d’experts consultants de plus de 50 ans d’expériences <br>
-                                                                qui nous accompagnent dans tous nos projets, ce qui nous garanti un taux de 95% de réussite.
+                                                                CONSTRUCTION D'UN R+1 À BINGERVILLE LAURIER 20.
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    {{-- <div class="dl-btn-group button elementor-repeater-item-b58020d">
-                                                        <div class="inner-layer">
-                                                            <a href="index.html#"
-                                                                class="dl-btn-2" data-animation="fade-in-right"
-                                                                data-delay="1200ms">Make an Appointment<span></span>
-                                                            </a>
-                                                        </div>
-                                                    </div> --}}
                                                 </div>
                                             </div>
                                         </div>
-
                                     </div>
                                     <div class="hero-slide slide-3 mask">
                                         <div class="bg-img kenburns-left" style="background-image: url({{ asset('images/sliders/3.jpg') }});"></div>
@@ -101,14 +83,13 @@
                                                     </div>
                                                     <div class="dl-caption big elementor-repeater-item-c4eb814">
                                                         <div class="inner-layer">
-                                                            <div data-animation="fade-in-right" data-delay="800ms">A PROPOS DE NOUS</div>
+                                                            <div data-animation="fade-in-right" data-delay="800ms">VISUALISATION MAQUETTE</div>
                                                         </div>
                                                     </div>
                                                     <div class="dl-caption small elementor-repeater-item-e38dcdc">
                                                         <div class="inner-layer">
                                                             <div data-animation="fade-in-right" data-delay="1000ms">
-                                                                Une panoplie d’équipe recruté par le soin de nos experts qui garantissent<br>
-                                                                un savoir faire et une grande expérience dans tous les domaines dans lesquels nous opérons.
+                                                                MODIFICATION D’UNE VILLA BASSE EN DUPLEX 5 PIECES A BINGERVILLE CITE LAURIER 20.
                                                             </div>
                                                         </div>
                                                     </div>
@@ -120,6 +101,34 @@
                                                             </a>
                                                         </div>
                                                     </div> --}}
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="hero-slide slide-4 mask">
+                                        <div class="bg-img kenburns-left" style="background-image: url({{ asset('images/sliders/4.jpg') }});"></div>
+                                        <div class="top-shape" style="" data-animation="fade-in-left" data-delay="300ms"></div>
+                                        <div class="bottom-shape" style="" data-animation="fade-in-right" data-delay="300ms"></div>
+                                        <div class="slider-content-wrap d-flex align-items-center">
+                                            <div class="container">
+                                                <div class="slider-content">
+                                                    <div class="dl-caption medium elementor-repeater-item-b3bb8e4">
+                                                        <div class="inner-layer">
+                                                            <div data-animation="fade-in-right" data-delay="600ms">GARIZIM INNOVATION</div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="dl-caption big elementor-repeater-item-c4eb814">
+                                                        <div class="inner-layer">
+                                                            <div data-animation="fade-in-right" data-delay="800ms">PROJET RENDU EN 2021</div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="dl-caption small elementor-repeater-item-e38dcdc">
+                                                        <div class="inner-layer">
+                                                            <div data-animation="fade-in-right" data-delay="1000ms">
+                                                                MODIFICATION D’UNE VILLA BASSE EN DUPLEX 5 PIECES A BINGERVILLE CITE LAURIER 20.
+                                                            </div>
+                                                        </div>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
@@ -272,9 +281,9 @@
                             data-widget_type="image.default">
                             <div class="elementor-widget-container">
                                 <img fetchpriority="high" decoding="async" width="740" height="659"
-                                    src="{{ asset('home/uploads/sites/17/2021/01/About-Image-03.png') }}"
+                                    src="{{ asset('images/About-Image-03.png') }}"
                                     class="attachment-full size-full wp-image-1500" alt=""
-                                    srcset="images/About-Image-03.png 740w, images/About-Image-03-300x267.png 300w"
+                                    srcset="images/About-Image-03.png 740w, images/About-Image-03.png 300w"
                                     sizes="(max-width: 740px) 100vw, 740px" />
                             </div>
                         </div>
@@ -284,7 +293,7 @@
                             data-widget_type="heading.default">
                             {{-- <div class="elementor-widget-container">
                                 <h6 class="elementor-heading-title elementor-size-default">
-                                    Faire partir des acteurs majeurs et clé du développement de la Côte d’Ivoire et de la sous-région.
+                                    GARIZIM Innovation
                                 </h6>
                             </div> --}}
                         </div>
@@ -329,16 +338,16 @@
                                                     <div class="service-thumb">
                                                         <img decoding="async" width="768"
                                                             height="512"
-                                                            src="{{ asset('images/post-4-768x512.jpg') }}"
+                                                            src="{{ asset('images/voirie_immobilier.png') }}"
                                                             class="attachment-medium_large size-medium_large wp-image-38"
                                                             alt=""
-                                                            srcset="images/post-4-768x512.jpg 768w, images/post-4-300x200.jpg 300w, images/post-4-1024x683.jpg 1024w, images/post-4-1536x1024.jpg 1536w, images/post-4.jpg 1920w"
+                                                            srcset="images/voirie_immobilier.png 768w, images/voirie_immobilier.png 300w, images/voirie_immobilier.png 1024w, images/voirie_immobilier.png 1536w, images/voirie_immobilier.png 1920w"
                                                             sizes="(max-width: 768px) 100vw, 768px" />
                                                     </div>
                                                     <div class="content">
-                                                        {{-- <div class="service-icon">
-                                                            <i class="dl dl-factory-1"></i>
-                                                        </div> --}}
+                                                        <div class="service-icon">
+                                                            <i class="dl dl-worker-4"></i>
+                                                        </div>
                                                         <h4 class="service-title">
                                                             <a href="">
                                                                 <span>Voirie Réseau Divers (VRD) & Immobiliers</span>
@@ -367,16 +376,16 @@
                                                     <div class="service-thumb">
                                                         <img loading="lazy" decoding="async"
                                                             width="768" height="512"
-                                                            src="{{ asset('images/post-3-768x512.jpg') }}"
+                                                            src="{{ asset('images/construction_peinture.png') }}"
                                                             class="attachment-medium_large size-medium_large wp-image-37"
                                                             alt=""
-                                                            srcset="images/post-3-768x512.jpg 768w, images/post-3-300x200.jpg 300w, images/post-3-1024x683.jpg 1024w, images/post-3-1536x1024.jpg 1536w, images/post-3.jpg 1920w"
+                                                            srcset="images/construction_peinture.png 768w, images/construction_peinture.png 300w, images/construction_peinture.png 1024w, images/construction_peinture.png 1536w, images/construction_peinture.png 1920w"
                                                             sizes="(max-width: 768px) 100vw, 768px" />
                                                     </div>
                                                     <div class="content">
-                                                        {{-- <div class="service-icon">
-                                                            <i class="dl dl-industrial-robot-9"></i>
-                                                        </div> --}}
+                                                        <div class="service-icon">
+                                                            <i class="dl dl-worker-2"></i>
+                                                        </div>
                                                         <h4 class="service-title">
                                                             <a href="">
                                                                 <span>Construction & Peinture</span>
@@ -405,16 +414,16 @@
                                                     <div class="service-thumb">
                                                         <img loading="lazy" decoding="async"
                                                             width="768" height="512"
-                                                            src="{{ asset('images/post-8-768x512.jpg') }}"
+                                                            src="{{ asset('images/electricite_electronique.png') }}"
                                                             class="attachment-medium_large size-medium_large wp-image-42"
                                                             alt=""
-                                                            srcset="images/post-8-768x512.jpg 768w, images/post-8-300x200.jpg 300w, images/post-8-1024x683.jpg 1024w, images/post-8-1536x1024.jpg 1536w, images/post-8.jpg 1920w"
+                                                            srcset="images/electricite_electronique.png 768w, images/electricite_electronique.png 300w, images/electricite_electronique.png 1024w, images/electricite_electronique.png 1536w, images/electricite_electronique.png 1920w"
                                                             sizes="(max-width: 768px) 100vw, 768px" />
                                                     </div>
                                                     <div class="content">
-                                                        {{-- <div class="service-icon">
-                                                            <i class="dl dl-industrial-robot-12"></i>
-                                                        </div> --}}
+                                                        <div class="service-icon">
+                                                            <i class="dl dl-worker-3"></i>
+                                                        </div>
                                                         <h4 class="service-title">
                                                             <a href="">
                                                                 <span>Electricité & Electronique</span>
@@ -870,7 +879,7 @@
         </section>
 
         {{-- TEAM --}}
-        <section
+        {{-- <section
             class="elementor-section elementor-top-section elementor-element elementor-element-9a0652c elementor-section-boxed elementor-section-height-default elementor-section-height-default"
             data-id="9a0652c" data-element_type="section">
             <div class="elementor-container elementor-column-gap-default">
@@ -958,7 +967,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                {{-- <div class="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-73b1778"
+                                <div class="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-73b1778"
                                     data-id="73b1778" data-element_type="column">
                                     <div class="elementor-widget-wrap elementor-element-populated">
                                         <div class="elementor-element elementor-element-eba363e elementor-invisible elementor-widget elementor-widget-industrus_team"
@@ -1016,8 +1025,8 @@
                                             </div>
                                         </div>
                                     </div>
-                                </div> --}}
-                                {{-- <div class="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-7f4641c"
+                                </div>
+                                <div class="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-7f4641c"
                                     data-id="7f4641c" data-element_type="column">
                                     <div class="elementor-widget-wrap elementor-element-populated">
                                         <div class="elementor-element elementor-element-8a484a3 elementor-invisible elementor-widget elementor-widget-industrus_team"
@@ -1133,7 +1142,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                </div> --}}
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -1141,8 +1150,7 @@
             </div>
         </section>
 
-
-        {{-- <section
+        <section
             class="elementor-section elementor-top-section elementor-element elementor-element-dd67179 elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-height-default"
             data-id="dd67179" data-element_type="section"
             data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">

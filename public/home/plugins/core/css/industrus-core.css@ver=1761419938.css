@@ -46,7 +46,7 @@ a, a:hover {
    ========================================================================== */
 
 .wt-btn {
-    font-family: "Work Sans", sans-serif;
+    font-family: Book Antiqua", "Times New Roman", serif;
     letter-spacing: 0;
     background-color: #000000;
     color: #fff;
@@ -321,7 +321,7 @@ a, a:hover {
 .subscribe_form .submit {
     background-color: #9e8a78;
     color: #fff;
-    font-family: "Work Sans", serif;
+    font-family: "Book Antiqua", "Times New Roman", sans-serif;
     font-size: 10px;
     font-weight: 600;
     line-height: 50px;
@@ -383,13 +383,13 @@ a, a:hover {
     display: block;
     color: #999;
     font-size: 15px;
-    font-family: "Work Sans", serif;
+    font-family: "Book Antiqua", "Times New Roman", sans-serif;
     line-height: 1.73;
     letter-spacing: .2px;
 }
 
 .widget-about-info span {
-    font-family: 'Work Sans', serif;
+    font-family: "Book Antiqua", "Times New Roman", sans-serif;
     font-size: 13px;
     color: #fff;
     letter-spacing: 2px;
@@ -693,7 +693,7 @@ a, a:hover {
     font-size: 20px;
     color: #272324;
     font-weight: 600;
-    font-family: "Teko", sans-serif;
+    font-family: "Book Antiqua", "Times New Roman", sans-serif;
     line-height: 22px;
     letter-spacing: 0;
     display: block;
@@ -701,7 +701,7 @@ a, a:hover {
 }
 
 .widget-posts-list li .widget-post-content .post-date {
-    font-family: "Work Sans", sans-serif;
+    font-family: "Book Antiqua", "Times New Roman", sans-serif;
     font-size: 12px;
     text-transform: uppercase;
     line-height: 1;
@@ -1206,7 +1206,7 @@ a, a:hover {
     text-align: center;
     justify-content: center;
     align-items: center;
-    font-family: "Work Sans", sans-serif;
+    font-family: Book Antiqua", "Times New Roman", serif;
     text-transform: uppercase;
     line-height: 1;
 }

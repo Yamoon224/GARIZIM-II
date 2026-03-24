@@ -6,10 +6,10 @@
         <div class="truck-3"></div>
         <div class="container">
             <div class="row">
-                <div class="col-lg-3 col-md-6 sm-padding">
+                <div class="col-lg-5 col-md-6 sm-padding">
                     <div class="footer-widget about-widget">
                         <a href="{{ route('home') }}" class="brand">
-                            <img src="{{ asset('images/logo/footer.png') }}" alt="LOGO"> 
+                            <img src="{{ asset('images/logo/footer.png') }}" alt="LOGO" style="border-radius: 10px;">
                         </a>
                         <p>Faire partir des acteurs majeurs et clé du développement de la Côte d’Ivoire et de la sous-région.</p>
                         
@@ -69,7 +69,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6 sm-padding">
+                <div class="col-lg-1 col-md-6 sm-padding">
                     {{-- <div id="industrus-recent-posts-3" class="widget footer-widget industrus_recent_entries">
                         <div class="widget-box">
                             <div class="widget-title">
@@ -156,9 +156,7 @@
                 <div class="col-md-12 text-center">
                     <div class="site-footer">
                         <div class="site-info">© Copyright {{ date('Y') }} Garizim - Tous droits reservés.</div>
-                        <!-- .site-info -->
                     </div>
-                    <!-- .site-footer -->
                 </div>
             </div>
         </div>

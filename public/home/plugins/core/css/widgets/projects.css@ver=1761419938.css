@@ -94,7 +94,7 @@
 }
 
 .project-item .project-content .project-cat a {
-    font-family: "Work Sans", sans-serif;
+    font-family: "Book Antiqua", "Times New Roman", sans-serif;
     font-size: 12px;
     line-height: 1;
     font-weight: 600;
@@ -128,7 +128,7 @@
     display: inline-block;
     margin-right: 10px;
     font-size: 13px;
-    font-family: "Work Sans", sans-serif;
+    font-family: "Book Antiqua", "Times New Roman", sans-serif;
     color: #333;
     font-weight: 700;
     cursor: pointer;
