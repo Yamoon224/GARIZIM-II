@@ -55,7 +55,7 @@
                                                     </div>
                                                     <div class="dl-caption big elementor-repeater-item-51a0124">
                                                         <div class="inner-layer">
-                                                            <div data-animation="fade-in-right" data-delay="800ms">PROJET RENDU EN REALISATION</div>
+                                                            <div data-animation="fade-in-right" data-delay="800ms">PROJET EN REALISATION</div>
                                                         </div>
                                                     </div>
                                                     <div class="dl-caption small elementor-repeater-item-d89776c">
