@@ -19,6 +19,11 @@ class HomeController extends Controller
         return view('home');
     }
 
+    public function projects(): View
+    {
+        return view('projects');
+    }
+
     public function missions(): View
     {
         return view('missions');

@@ -493,7 +493,7 @@
                                             data-widget_type="industrus_button.default">
                                             <div class="elementor-widget-container">
                                                 <div id="wt-at-dee56f3" class="wt-button-wrap">
-                                                    <a href="" class="dl-btn-2">
+                                                    <a href="{{ route('projets') }}" class="dl-btn-2">
                                                         Voir tous nos projets<span></span>
                                                     </a>
                                                 </div>

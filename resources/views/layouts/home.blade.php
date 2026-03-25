@@ -61,6 +61,9 @@
 	    <link rel='stylesheet' id='elementor-icons-shared-0-css' href='{{ asset('home/plugins/core/css/dl-construction-icons.min.css@ver=1.9.4.css') }}' media='all' />
 	    <link rel='stylesheet' id='elementor-icons-industrus-icons-css' href='{{ asset('home/plugins/core/css/dl-construction-icons.min.css@ver=1.9.4.css') }}' media='all' />
         
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Times+New+Roman&display=swap">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Book+Antiqua&display=swap">
+
         <script src="{{ asset('home/js/jquery/jquery.min.js@ver=3.7.1') }}" id="jquery-core-js"></script>
         <script src="{{ asset('home/js/jquery/jquery-migrate.min.js@ver=3.4.1') }}" id="jquery-migrate-js"></script>
         <script src="{{ asset('home/plugins/core/js/owl.carousel.min.js@ver=2.2.1') }}" id="owl-carousel-js"></script>
@@ -83,6 +86,8 @@
             <x-h-header></x-h-header>
             
             {{ $slot }}
+
+            <x-h-form></x-h-form>
                 
             <x-h-footer></x-h-footer>
         </div>

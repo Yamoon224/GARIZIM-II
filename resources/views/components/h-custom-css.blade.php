@@ -381,4 +381,8 @@
     }
 
     /*# sourceURL=global-styles-inline-css */
+    body, p, div, span, a, li, h1, h2, h3, h4, h5, h6, input, button, textarea, 
+        .is-layout-flex, .is-layout-grid, .wp-block-columns, .wp-block-post-template {
+        font-family: "Book Antiqua", "Times New Roman", serif !important;
+    }
 </style>
