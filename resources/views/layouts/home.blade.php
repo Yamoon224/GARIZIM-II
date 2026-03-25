@@ -87,7 +87,7 @@
             
             {{ $slot }}
 
-            <x-h-form></x-h-form>
+            {{-- <x-h-form></x-h-form> --}}
                 
             <x-h-footer></x-h-footer>
         </div>
