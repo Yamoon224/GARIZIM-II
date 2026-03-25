@@ -33,7 +33,7 @@
                                                     <div class="dl-caption small elementor-repeater-item-da04f55">
                                                         <div class="inner-layer">
                                                             <div data-animation="fade-in-right" data-delay="1000ms">
-                                                                CONSTRUCTION D'UN R+1 À BINGERVILLE LAURIER 20.
+                                                                Construction d'un R+1 à Bingerville Laurier 20.
                                                             </div>
                                                         </div>
                                                     </div>
@@ -55,13 +55,13 @@
                                                     </div>
                                                     <div class="dl-caption big elementor-repeater-item-51a0124">
                                                         <div class="inner-layer">
-                                                            <div data-animation="fade-in-right" data-delay="800ms">PROJET EN REALISATION</div>
+                                                            <div data-animation="fade-in-right" data-delay="800ms">PROJET RENDU EN 2018</div>
                                                         </div>
                                                     </div>
                                                     <div class="dl-caption small elementor-repeater-item-d89776c">
                                                         <div class="inner-layer">
                                                             <div data-animation="fade-in-right" data-delay="1000ms">
-                                                                CONSTRUCTION D'UN R+1 À BINGERVILLE LAURIER 20.
+                                                                Construction d'un R+1 à Bingerville Laurier 20.
                                                             </div>
                                                         </div>
                                                     </div>
@@ -83,13 +83,13 @@
                                                     </div>
                                                     <div class="dl-caption big elementor-repeater-item-c4eb814">
                                                         <div class="inner-layer">
-                                                            <div data-animation="fade-in-right" data-delay="800ms">VISUALISATION MAQUETTE</div>
+                                                            <div data-animation="fade-in-right" data-delay="800ms">PROJET RENDU</div>
                                                         </div>
                                                     </div>
                                                     <div class="dl-caption small elementor-repeater-item-e38dcdc">
                                                         <div class="inner-layer">
                                                             <div data-animation="fade-in-right" data-delay="1000ms">
-                                                                MODIFICATION D’UNE VILLA BASSE EN DUPLEX 5 PIECES A BINGERVILLE CITE LAURIER 20.
+                                                                Travaux de Bitumage du terrain de l'école AIME CESAIRE DE YOPOUGON.
                                                             </div>
                                                         </div>
                                                     </div>
@@ -119,13 +119,13 @@
                                                     </div>
                                                     <div class="dl-caption big elementor-repeater-item-c4eb814">
                                                         <div class="inner-layer">
-                                                            <div data-animation="fade-in-right" data-delay="800ms">PROJET RENDU EN 2021</div>
+                                                            <div data-animation="fade-in-right" data-delay="800ms">PROJET RENDU</div>
                                                         </div>
                                                     </div>
                                                     <div class="dl-caption small elementor-repeater-item-e38dcdc">
                                                         <div class="inner-layer">
                                                             <div data-animation="fade-in-right" data-delay="1000ms">
-                                                                MODIFICATION D’UNE VILLA BASSE EN DUPLEX 5 PIECES A BINGERVILLE CITE LAURIER 20.
+                                                                Travaux de Bitumage du terrain de l'école AIME CESAIRE DE YOPOUGON.
                                                             </div>
                                                         </div>
                                                     </div>

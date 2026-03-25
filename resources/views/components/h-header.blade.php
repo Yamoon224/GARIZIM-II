@@ -86,7 +86,7 @@
                                     </path>
                                 </svg>
                             </div>
-                            <span>9h - 17h</span> Lun - Ven
+                            <span>8h - 18h</span> Lun - Ven
                         </li>
                         <li>
                             <div class="icon">
