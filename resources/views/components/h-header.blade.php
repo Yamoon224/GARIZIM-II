@@ -116,15 +116,15 @@
                         </li>
                         <li id="menu-item-2056"
                             class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2056">
-                            <a href="#vision">Notre Vision</a>
+                            <a href="{{ route('home') }}#vision">Notre Vision</a>
                         </li>
                         <li id="menu-item-1783"
                             class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1783">
-                            <a href="#services">Nos Services</a>
+                            <a href="{{ route('home') }}#services">Nos Services</a>
                         </li>
                         <li id="menu-item-2173"
                             class="menu-item menu-item-type-post_type menu-item-object-page last-menu-item menu-item-2173">
-                            <a href="#contacts">Nos Contacts</a>
+                            <a href="{{ route('home') }}#contacts">Nos Contacts</a>
                         </li>
                     </ul>
                 </div>

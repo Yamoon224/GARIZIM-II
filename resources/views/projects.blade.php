@@ -3,9 +3,11 @@
         <div class="overlay"></div>
         <div class="container">
             <div class="section-heading mt-40 text-center">
-                <h4 class="sub-heading">Our Projects</h4>
-                <h2>Transforming The Ideas<br>And Visions For <span>Industries!</span></h2>
-                <p>Construction is a general term meaning the art and science to <br>form objects systems organizations.
+                <h4 class="sub-heading">Nos Réalisations</h4>
+                <h2>Transformer les Idées<br>et les Visions pour <span>le BTP !</span></h2>
+                <p>
+                    Le BTP et les travaux publics regroupent l'art et la science de concevoir, <br>
+                    construire et organiser des ouvrages durables et fonctionnels.
                 </p>
             </div>
             <!-- /.section-heading -->
@@ -21,12 +23,12 @@
                         <div class="project-thumb">
                             <img src="{{ asset('images/project-6-768x600.jpg') }}" alt="project">
                             <div class="project-view">
-                                <a class="dl-lightbox" href="{{ asset('images/project-6.jpg') }}"><i class="fas fa-plus"></i></a>
+                                <a class="dl-lightbox" href="{{ asset('images/bitumage-station-route-nord.jpg') }}"><i class="fas fa-plus"></i></a>
                             </div>
                         </div>
                         <div class="project-content">
-                            <a href="projec-4-col.html" class="cat">Industries</a>
-                            <h3><a href='/industrus/project-details'>Mercury City Tower</a></h3>
+                            <a class="cat">TRAVAUX PUBLICS</a>
+                            <h3><a>PARTICIPATION AUX TRAVAUX DE BITUMAGE DE LA STATION TOTAL AUTOROUTE DU NORD</a></h3>
                         </div>
                     </div>
                 </div>
@@ -39,8 +41,8 @@
                             </div>
                         </div>
                         <div class="project-content">
-                            <a href="projec-4-col.html" class="cat">Building</a>
-                            <h3><a href='/industrus/project-details'>Central Park Tower</a></h3>
+                            <a class="cat">TRAVAUX PUBLICS</a>
+                            <h3><a>TRAVAUX DE BITUMAGE DU TERRAIN DE L’ECOLE AIME CESAIRE DE YOPOUGON </a></h3>
                         </div>
                     </div>
                 </div>
@@ -53,8 +55,8 @@
                             </div>
                         </div>
                         <div class="project-content">
-                            <a href="projec-4-col.html" class="cat">Construction</a>
-                            <h3><a href='/industrus/project-details'>Vincom Landmark 81</a></h3>
+                            <a class="cat">TRAVAUX PUBLICS</a>
+                            <h3><a>TRAVAUX DE BITUMAGE DE L’USINE SECO OUANGOLODOUGOU COTE D’IVOIRE</a></h3>
                         </div>
                     </div>
                 </div>
