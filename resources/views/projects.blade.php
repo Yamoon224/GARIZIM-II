@@ -21,9 +21,9 @@
                 <div class="col-lg-4 col-md-6 padding-15 single-item architecture building">
                     <div class="project-item">
                         <div class="project-thumb">
-                            <img src="{{ asset('images/project-6-768x600.jpg') }}" alt="project">
+                            <img src="{{ asset('images/bitumage-station-route-nord.jpg') }}" alt="project">
                             <div class="project-view">
-                                <a class="dl-lightbox" href="{{ asset('images/bitumage-station-route-nord.jpg') }}"><i class="fas fa-plus"></i></a>
+                                <a class="dl-lightbox"><i class="fas fa-plus"></i></a>
                             </div>
                         </div>
                         <div class="project-content">
@@ -35,28 +35,42 @@
                 <div class="col-lg-4 col-md-6 padding-15 single-item construction industrial">
                     <div class="project-item">
                         <div class="project-thumb">
-                            <img src="{{ asset('images/project-4-768x600.jpg') }}" alt="project">
+                            <img src="{{ asset('images/voie-daloa.jpg') }}" alt="project">
                             <div class="project-view">
-                                <a class="dl-lightbox" href="{{ asset('images/project-4.jpg') }}"><i class="fas fa-plus"></i></a>
+                                <a class="dl-lightbox"><i class="fas fa-plus"></i></a>
                             </div>
                         </div>
                         <div class="project-content">
                             <a class="cat">TRAVAUX PUBLICS</a>
-                            <h3><a>TRAVAUX DE BITUMAGE DU TERRAIN DE L’ECOLE AIME CESAIRE DE YOPOUGON </a></h3>
+                            <h3><a>TRAVAUX D’OUVERTURE DE VOIE A DALOA</a></h3>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 padding-15 single-item industrial building">
                     <div class="project-item">
                         <div class="project-thumb">
-                            <img src="{{ asset('images/project-5-768x600.jpg') }}" alt="project">
+                            <img src="{{ asset('images/ouangolodougou.jpg') }}" alt="project">
                             <div class="project-view">
-                                <a class="dl-lightbox" href="{{ asset('images/project-5.jpg') }}"><i class="fas fa-plus"></i></a>
+                                <a class="dl-lightbox"><i class="fas fa-plus"></i></a>
                             </div>
                         </div>
                         <div class="project-content">
                             <a class="cat">TRAVAUX PUBLICS</a>
                             <h3><a>TRAVAUX DE BITUMAGE DE L’USINE SECO OUANGOLODOUGOU COTE D’IVOIRE</a></h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 padding-15 single-item industrial building">
+                    <div class="project-item">
+                        <div class="project-thumb">
+                            <img src="{{ asset('images/aime-cesaire.jpg') }}" alt="project">
+                            <div class="project-view">
+                                <a class="dl-lightbox"><i class="fas fa-plus"></i></a>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <a class="cat">TRAVAUX PUBLICS</a>
+                            <h3><a>TRAVAUX DE BITUMAGE DU TERRAIN DE L’ECOLE AIME CESAIRE DE YOPOUGON</a></h3>
                         </div>
                     </div>
                 </div>
