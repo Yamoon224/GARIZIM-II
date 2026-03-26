@@ -139,7 +139,7 @@
                                         <input type="text" name="name" class="form-control mb-2" placeholder="Votre nom *" required>
                                         <input type="text" name="profession" class="form-control mb-2" placeholder="Votre profession *" required>
                                     
-                                        <textarea name="testimonial" class="form-control mb-2" placeholder="Votre témoignage" rows="5" style="resize: none" required></textarea>
+                                        <textarea name="testimonials" class="form-control mb-2" placeholder="Votre témoignage" rows="5" style="resize: none" required></textarea>
                                     </div>
                                     <button class="header-btn">Envoyez</button>
                                 </form>
