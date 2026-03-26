@@ -15,60 +15,7 @@
 
     <section class="project-section padding">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <ul class="project-filter text-center">
-                        <li class="active" data-filter="*">All Projects</li>
-                        <li data-filter=".architecture ">Architecture</li>
-                        <li data-filter=".building">Building</li>
-                        <li data-filter=".construction">Construction</li>
-                        <li data-filter=".industrial">Industrial</li>
-                    </ul>
-                </div>
-            </div>
             <div class="project-items grid dl-lb-gallery row">
-                <div class="col-lg-4 col-md-6 padding-15 single-item architecture building">
-                    <div class="project-item">
-                        <div class="project-thumb">
-                            <img src="{{ asset('images/project-1-768x600%20.jpg') }}" alt="project">
-                            <div class="project-view">
-                                <a class="dl-lightbox" href="{{ asset('images/project-1.jpg') }}"><i class="fas fa-plus"></i></a>
-                            </div>
-                        </div>
-                        <div class="project-content">
-                            <a href="projec-4-col.html" class="cat">Architecture</a>
-                            <h3><a href='/industrus/project-details'>The Burj Khalifa</a></h3>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 padding-15 single-item construction building">
-                    <div class="project-item">
-                        <div class="project-thumb">
-                            <img src="{{ asset('images/project-2-768x600.jpg') }}" alt="project">
-                            <div class="project-view">
-                                <a class="dl-lightbox" href="{{ asset('images/project-2.jpg') }}"><i class="fas fa-plus"></i></a>
-                            </div>
-                        </div>
-                        <div class="project-content">
-                            <a href="projec-4-col.html" class="cat">Construction</a>
-                            <h3><a href='/industrus/project-details'>Shun Hing Square</a></h3>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 padding-15 single-item construction architecture">
-                    <div class="project-item">
-                        <div class="project-thumb">
-                            <img src="{{ asset('images/project-3-768x600.jpg') }}" alt="project">
-                            <div class="project-view">
-                                <a class="dl-lightbox" href="{{ asset('images/project-3.jpg') }}"><i class="fas fa-plus"></i></a>
-                            </div>
-                        </div>
-                        <div class="project-content">
-                            <a href="projec-4-col.html" class="cat">Building</a>
-                            <h3><a href='/industrus/project-details'>World Trade Center</a></h3>
-                        </div>
-                    </div>
-                </div>
                 <div class="col-lg-4 col-md-6 padding-15 single-item architecture building">
                     <div class="project-item">
                         <div class="project-thumb">
