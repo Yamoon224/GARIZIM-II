@@ -1233,6 +1233,8 @@
         </section> --}}
 
         {{-- TEMOIGNAGE --}}
+
+        @if($testimonials->isNotEmpty())
         <section
             class="elementor-section elementor-top-section elementor-element elementor-element-16faf7e elementor-section-boxed elementor-section-height-default elementor-section-height-default"
             data-id="16faf7e" data-element_type="section"
@@ -1260,193 +1262,25 @@
                             data-id="0e73aaa" data-element_type="widget"
                             data-widget_type="industrus_testimonials.default">
                             <div class="elementor-widget-container">
-
                                 <div class="testimonial-carousel owl-carousel dots-style-3" data-autoplay="true"
                                     data-loop="true" data-margin="15" data-smart-speed="500" data-dots="true"
                                     data-nav="true" data-desktop="2" data-tablet="1">
 
-                                    <div class="testi-item style-1">
-                                        <div class="inner">
-                                            <div class="testi-thumb"
-                                                style="background-image: url({{ asset('images/teams/team.png') }});">
+                                    @foreach($testimonials as $testimonial)
+                                        <div class="testi-item style-1">
+                                            <div class="inner">
+                                                <div class="testi-content">
+                                                    <p>{{ $testimonial->testimonials }}</p>
+                                                    <h3>{{ $testimonial->name }} <span>{{ $testimonial->profession }}</span></h3>
+                                                    <ul class="ratings star-4">
+                                                        {{-- Ici tu peux gérer les étoiles si tu as un champ rating --}}
+                                                    </ul>
+                                                </div>
+                                                <i class="fa fa-quote-right quote-icon"></i>
                                             </div>
-                                            <div class="testi-content">
-                                                <p>
-                                                    Le travail réalisé par Garizim Innovation est remarquable. Quelques ajustements ont été demandés en cours de projet et tout a été géré avec professionnalisme, travail solide, équipe fiable, excellent choix.
-                                                </p>
-                                                <h3>Jean Jacques Kouassi <span>Proprietaire Immobilier</span></h3>
-                                                <ul class="ratings star-4">
-                                                    <li>
-                                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
-                                                            <path d="M12.0006 18.26L4.94715 22.2082L6.52248 14.2799L0.587891 8.7918L8.61493 7.84006L12.0006 0.5L15.3862 7.84006L23.4132 8.7918L17.4787 14.2799L19.054 22.2082L12.0006 18.26Z" />
-                                                        </svg>
-                                                    </li>
-                                                    <li>
-                                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
-                                                            <path d="M12.0006 18.26L4.94715 22.2082L6.52248 14.2799L0.587891 8.7918L8.61493 7.84006L12.0006 0.5L15.3862 7.84006L23.4132 8.7918L17.4787 14.2799L19.054 22.2082L12.0006 18.26Z" />
-                                                        </svg>
-                                                    </li>
-                                                    <li>
-                                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
-                                                            <path d="M12.0006 18.26L4.94715 22.2082L6.52248 14.2799L0.587891 8.7918L8.61493 7.84006L12.0006 0.5L15.3862 7.84006L23.4132 8.7918L17.4787 14.2799L19.054 22.2082L12.0006 18.26Z" />
-                                                        </svg>
-                                                    </li>
-                                                    <li>
-                                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
-                                                            <path d="M12.0006 18.26L4.94715 22.2082L6.52248 14.2799L0.587891 8.7918L8.61493 7.84006L12.0006 0.5L15.3862 7.84006L23.4132 8.7918L17.4787 14.2799L19.054 22.2082L12.0006 18.26Z" />
-                                                        </svg>
-                                                    </li>
-                                                    <li>
-                                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
-                                                            <path d="M12.0006 18.26L4.94715 22.2082L6.52248 14.2799L0.587891 8.7918L8.61493 7.84006L12.0006 0.5L15.3862 7.84006L23.4132 8.7918L17.4787 14.2799L19.054 22.2082L12.0006 18.26Z" />
-                                                        </svg>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                            <i class="fa fa-quote-right quote-icon"></i>
                                         </div>
-                                    </div>
-                                    {{-- <div class="testi-item style-1">
-                                        <div class="inner">
-                                            <div class="testi-thumb" style="background-image: url({{ asset('images/testimonial-2.jpg') }});"></div>
-                                            <div class="testi-content">
-                                                <p>
-                                                    The support on this theme is supper amazing. Requested a few
-                                                    changes and everything was done professionally, good theme, good
-                                                    support, great buy
-                                                </p>
-                                                <h3>Fiorella Ibáñez <span>MARKETING MANAGER</span></h3>
-                                                <ul class="ratings star-4">
-                                                    <li><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                            fill="currentColor">
-                                                            <path
-                                                                d="M12.0006 18.26L4.94715 22.2082L6.52248 14.2799L0.587891 8.7918L8.61493 7.84006L12.0006 0.5L15.3862 7.84006L23.4132 8.7918L17.4787 14.2799L19.054 22.2082L12.0006 18.26Z">
-                                                            </path>
-                                                        </svg></li>
-                                                    <li><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                            fill="currentColor">
-                                                            <path
-                                                                d="M12.0006 18.26L4.94715 22.2082L6.52248 14.2799L0.587891 8.7918L8.61493 7.84006L12.0006 0.5L15.3862 7.84006L23.4132 8.7918L17.4787 14.2799L19.054 22.2082L12.0006 18.26Z">
-                                                            </path>
-                                                        </svg></li>
-                                                    <li><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                            fill="currentColor">
-                                                            <path
-                                                                d="M12.0006 18.26L4.94715 22.2082L6.52248 14.2799L0.587891 8.7918L8.61493 7.84006L12.0006 0.5L15.3862 7.84006L23.4132 8.7918L17.4787 14.2799L19.054 22.2082L12.0006 18.26Z">
-                                                            </path>
-                                                        </svg></li>
-                                                    <li><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                            fill="currentColor">
-                                                            <path
-                                                                d="M12.0006 18.26L4.94715 22.2082L6.52248 14.2799L0.587891 8.7918L8.61493 7.84006L12.0006 0.5L15.3862 7.84006L23.4132 8.7918L17.4787 14.2799L19.054 22.2082L12.0006 18.26Z">
-                                                            </path>
-                                                        </svg></li>
-                                                    <li><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                            fill="currentColor">
-                                                            <path
-                                                                d="M12.0006 18.26L4.94715 22.2082L6.52248 14.2799L0.587891 8.7918L8.61493 7.84006L12.0006 0.5L15.3862 7.84006L23.4132 8.7918L17.4787 14.2799L19.054 22.2082L12.0006 18.26Z">
-                                                            </path>
-                                                        </svg></li>
-                                                </ul>
-                                            </div>
-                                            <i class="fa fa-quote-right quote-icon"></i>
-                                        </div>
+                                    @endforeach
 
-                                    </div>
-                                    <div class="testi-item style-1">
-                                        <div class="inner">
-                                            <div class="testi-thumb"
-                                                style="background-image: url({{ asset('images/testimonial-3.jpg') }});">
-                                            </div>
-                                            <div class="testi-content">
-                                                <p>The support on this theme is supper amazing. Requested a few
-                                                    changes and everything was done professionally, good theme, good
-                                                    support, great buy</p>
-                                                <h3>Zosé Carpio <span>TECHNOLOGY OFFICER</span></h3>
-                                                <ul class="ratings star-4">
-                                                    <li><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                            fill="currentColor">
-                                                            <path
-                                                                d="M12.0006 18.26L4.94715 22.2082L6.52248 14.2799L0.587891 8.7918L8.61493 7.84006L12.0006 0.5L15.3862 7.84006L23.4132 8.7918L17.4787 14.2799L19.054 22.2082L12.0006 18.26Z">
-                                                            </path>
-                                                        </svg></li>
-                                                    <li><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                            fill="currentColor">
-                                                            <path
-                                                                d="M12.0006 18.26L4.94715 22.2082L6.52248 14.2799L0.587891 8.7918L8.61493 7.84006L12.0006 0.5L15.3862 7.84006L23.4132 8.7918L17.4787 14.2799L19.054 22.2082L12.0006 18.26Z">
-                                                            </path>
-                                                        </svg></li>
-                                                    <li><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                            fill="currentColor">
-                                                            <path
-                                                                d="M12.0006 18.26L4.94715 22.2082L6.52248 14.2799L0.587891 8.7918L8.61493 7.84006L12.0006 0.5L15.3862 7.84006L23.4132 8.7918L17.4787 14.2799L19.054 22.2082L12.0006 18.26Z">
-                                                            </path>
-                                                        </svg></li>
-                                                    <li><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                            fill="currentColor">
-                                                            <path
-                                                                d="M12.0006 18.26L4.94715 22.2082L6.52248 14.2799L0.587891 8.7918L8.61493 7.84006L12.0006 0.5L15.3862 7.84006L23.4132 8.7918L17.4787 14.2799L19.054 22.2082L12.0006 18.26Z">
-                                                            </path>
-                                                        </svg></li>
-                                                    <li><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                            fill="currentColor">
-                                                            <path
-                                                                d="M12.0006 18.26L4.94715 22.2082L6.52248 14.2799L0.587891 8.7918L8.61493 7.84006L12.0006 0.5L15.3862 7.84006L23.4132 8.7918L17.4787 14.2799L19.054 22.2082L12.0006 18.26Z">
-                                                            </path>
-                                                        </svg></li>
-                                                </ul>
-                                            </div>
-                                            <i class="fa fa-quote-right quote-icon"></i>
-                                        </div>
-
-                                    </div>
-                                    <div class="testi-item style-1">
-                                        <div class="inner">
-                                            <div class="testi-thumb"
-                                                style="background-image: url({{ asset('images/testimonial-4.jpg') }});">
-                                            </div>
-                                            <div class="testi-content">
-                                                <p>The support on this theme is supper amazing. Requested a few
-                                                    changes and everything was done professionally, good theme, good
-                                                    support, great buy</p>
-                                                <h3>Kyle Frederick <span>FIELD OFFICER</span></h3>
-                                                <ul class="ratings star-4">
-                                                    <li><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                            fill="currentColor">
-                                                            <path
-                                                                d="M12.0006 18.26L4.94715 22.2082L6.52248 14.2799L0.587891 8.7918L8.61493 7.84006L12.0006 0.5L15.3862 7.84006L23.4132 8.7918L17.4787 14.2799L19.054 22.2082L12.0006 18.26Z">
-                                                            </path>
-                                                        </svg></li>
-                                                    <li><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                            fill="currentColor">
-                                                            <path
-                                                                d="M12.0006 18.26L4.94715 22.2082L6.52248 14.2799L0.587891 8.7918L8.61493 7.84006L12.0006 0.5L15.3862 7.84006L23.4132 8.7918L17.4787 14.2799L19.054 22.2082L12.0006 18.26Z">
-                                                            </path>
-                                                        </svg></li>
-                                                    <li><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                            fill="currentColor">
-                                                            <path
-                                                                d="M12.0006 18.26L4.94715 22.2082L6.52248 14.2799L0.587891 8.7918L8.61493 7.84006L12.0006 0.5L15.3862 7.84006L23.4132 8.7918L17.4787 14.2799L19.054 22.2082L12.0006 18.26Z">
-                                                            </path>
-                                                        </svg></li>
-                                                    <li><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                            fill="currentColor">
-                                                            <path
-                                                                d="M12.0006 18.26L4.94715 22.2082L6.52248 14.2799L0.587891 8.7918L8.61493 7.84006L12.0006 0.5L15.3862 7.84006L23.4132 8.7918L17.4787 14.2799L19.054 22.2082L12.0006 18.26Z">
-                                                            </path>
-                                                        </svg></li>
-                                                    <li><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                            fill="currentColor">
-                                                            <path
-                                                                d="M12.0006 18.26L4.94715 22.2082L6.52248 14.2799L0.587891 8.7918L8.61493 7.84006L12.0006 0.5L15.3862 7.84006L23.4132 8.7918L17.4787 14.2799L19.054 22.2082L12.0006 18.26Z">
-                                                            </path>
-                                                        </svg></li>
-                                                </ul>
-                                            </div>
-                                            <i class="fa fa-quote-right quote-icon"></i>
-                                        </div>
-
-                                    </div> --}}
                                 </div>
                             </div>
                         </div>
@@ -1454,6 +1288,7 @@
                 </div>
             </div>
         </section>
+        @endif
 
         {{-- <section
             class="elementor-section elementor-top-section elementor-element elementor-element-593cfe1 elementor-section-boxed elementor-section-height-default elementor-section-height-default"

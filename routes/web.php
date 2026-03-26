@@ -20,3 +20,5 @@ Route::get('/missions', [HomeController::class, 'missions'])->name('missions');
 Route::get('/services', [HomeController::class, 'services'])->name('services');
 Route::get('/contacts', [HomeController::class, 'contacts'])->name('contacts');
 
+Route::post('/testimonials', [HomeController::class, 'testimonials'])->name('testimonials');
+

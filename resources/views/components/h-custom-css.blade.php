@@ -385,4 +385,16 @@
         .is-layout-flex, .is-layout-grid, .wp-block-columns, .wp-block-post-template {
         font-family: "Book Antiqua", "Times New Roman", serif !important;
     }
+
+    .subscribe-widget .form-field input {
+        background-color: #fff;
+        width: 100%;
+        height: 45px;
+        border: none;
+        display: block;
+        padding: 0 15px;
+        padding-right: 80px;
+        outline: none;
+        box-shadow: none;
+    }
 </style>

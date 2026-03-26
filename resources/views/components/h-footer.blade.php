@@ -121,7 +121,8 @@
                     <div class="footer-widget subscribe">
                         <div class="widget-box subscribe-widget">
                             <div class="widget-title">
-                                <div><svg viewBox="0 0 454.57 454.57" xmlns="http://www.w3.org/2000/svg">
+                                <div>
+                                    <svg viewBox="0 0 454.57 454.57" xmlns="http://www.w3.org/2000/svg">
                                         <path
                                             d="m452.44 156.23-65.829-46.498v-67.919c-0.66-6.728-5.843-12.128-12.539-13.061h-288.39c-6.695 0.934-11.879 6.333-12.539 13.061v67.396l-68.441 47.02c-2.711 1.968-4.428 5.021-4.702 8.359v248.16c0.89 6.811 6.25 12.172 13.061 13.061h433.63c5.747 0 7.837-6.792 7.837-13.061v-248.16c0-3.135 0.522-6.27-2.09-8.359zm-65.829-21.421 44.931 30.824-44.931 33.959v-64.783zm-292.57-85.159h271.67v166.14l-135.84 102.4-135.84-102.4v-166.14zm-20.898 84.637v65.829l-44.931-34.482 44.931-31.347zm-52.245 52.767 146.29 110.76-146.29 98.743v-209.5zm25.078 217.86 138.97-93.518 37.094 28.212c2.1 1.623 4.661 2.538 7.314 2.612 2.09 0 3.135-1.045 5.224-2.612l38.661-29.78 140.54 95.086h-367.8zm387.66-12.016-143.15-96.131 143.15-109.71v205.84z" />
                                         <path
@@ -130,12 +131,22 @@
                                             d="m146.29 164.59h167.18c5.771 0 10.449-4.678 10.449-10.449s-4.678-10.449-10.449-10.449h-167.18c-5.771 0-10.449 4.678-10.449 10.449s4.678 10.449 10.449 10.449z" />
                                         <path
                                             d="m323.92 201.16c0-5.771-4.678-10.449-10.449-10.449h-167.18c-5.771 0-10.449 4.678-10.449 10.449s4.678 10.449 10.449 10.449h167.18c5.77 0 10.448-4.678 10.448-10.449z" />
-                                    </svg></div>
-                                <h3>Souscription Newsletter</h3>
-                                <p>Souscrivez aux newsletters.</p>
+                                    </svg>
+                                </div>
+                                <form action="{{ route('testimonials') }}" method="POST">
+                                    @csrf
+                                    <div class="form-field">
+                                        <input type="text" name="name" class="form-control mb-2" placeholder="Votre nom *" required>
+                                        <input type="text" name="profession" class="form-control mb-2" placeholder="Votre profession *" required>
+                                    </div>
+                                    <p>Laissez-nous vos témoignages.</p>
+                                    <div class="form-field mb-2">
+                                        <textarea name="testimonial" class="form-control" placeholder="Votre témoignage" rows="5" style="resize: none" required></textarea>
+                                    </div>
+                                    <button class="header-btn">Envoyez</button>
+                                </form>
                             </div>
-                            <div class="alert alert-warning" role="alert">Svp installez Mailchimp pour voir notre formulaire de newsletter.</div>
-                            <p>* Pas de spams.</p>
+                            {{-- <div class="alert alert-warning" role="alert">Svp installez Mailchimp pour voir notre formulaire de newsletter.</div> --}}
                             <div class="overlay-icon">
                                 <svg viewBox="0 0 454.57 454.57" xmlns="http://www.w3.org/2000/svg">
                                     <path d="m452.44 156.23-65.829-46.498v-67.919c-0.66-6.728-5.843-12.128-12.539-13.061h-288.39c-6.695 0.934-11.879 6.333-12.539 13.061v67.396l-68.441 47.02c-2.711 1.968-4.428 5.021-4.702 8.359v248.16c0.89 6.811 6.25 12.172 13.061 13.061h433.63c5.747 0 7.837-6.792 7.837-13.061v-248.16c0-3.135 0.522-6.27-2.09-8.359zm-65.829-21.421 44.931 30.824-44.931 33.959v-64.783zm-292.57-85.159h271.67v166.14l-135.84 102.4-135.84-102.4v-166.14zm-20.898 84.637v65.829l-44.931-34.482 44.931-31.347zm-52.245 52.767 146.29 110.76-146.29 98.743v-209.5zm25.078 217.86 138.97-93.518 37.094 28.212c2.1 1.623 4.661 2.538 7.314 2.612 2.09 0 3.135-1.045 5.224-2.612l38.661-29.78 140.54 95.086h-367.8zm387.66-12.016-143.15-96.131 143.15-109.71v205.84z" />

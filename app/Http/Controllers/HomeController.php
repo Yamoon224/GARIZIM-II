@@ -2,11 +2,8 @@
 
 namespace App\Http\Controllers;
 
-use App\Http\Requests\ProfileUpdateRequest;
-use Illuminate\Http\RedirectResponse;
+use App\Models\Testimonial;
 use Illuminate\Http\Request;
-use Illuminate\Support\Facades\Auth;
-use Illuminate\Support\Facades\Redirect;
 use Illuminate\View\View;
 
 class HomeController extends Controller
@@ -16,7 +13,12 @@ class HomeController extends Controller
      */
     public function home(): View
     {
-        return view('home');
+        // Récupère les 3 derniers témoignages par ordre de création
+        $testimonials = Testimonial::orderBy('created_at', 'desc')
+                                ->take(3)
+                                ->get();
+
+        return view('home', compact('testimonials'));
     }
 
     public function projects(): View
@@ -37,5 +39,21 @@ class HomeController extends Controller
     public function contacts(): View
     {
         return view('contacts');
+    }
+
+    public function testimonials(Request $request)
+    {
+        // Validation (recommandé)
+        $data = $request->validate([
+            'name' => 'required|string|max:255',
+            'profession' => 'required|string|max:255',
+            'testimonials' => 'required|string',
+        ]);
+
+        // Création du témoignage
+        Testimonial::create($data);
+
+        // Redirection vers la route 'home' avec un message flash optionnel
+        return redirect()->route('home')->with('success', 'Témoignage ajouté avec succès !');
     }
 }
